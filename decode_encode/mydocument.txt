@@ -1,0 +1,5 @@
+hello
+this is a test
+its a program that we can encode or
+decode some texts
+and this is my test document
