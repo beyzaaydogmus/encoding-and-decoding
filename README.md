@@ -7,6 +7,7 @@ Encode a text from a file. and decode an encoded text with brute force algorithm
 An example of such mapping is given below:
 
 **Plain Alphabet** : a b c d e f g h i j k l m n o p q r s t u v w x y z
+
 **Cipher Alphabet**: d e f p q a b k l c r s t g y z h i j m n o u v w x
 
 Encoding and decoding is simply done by replacing the letter in the source alphabet with the
