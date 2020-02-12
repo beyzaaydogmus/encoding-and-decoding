@@ -22,3 +22,13 @@ represented as '(c l a s s ). Paragraphs are lists of words, e.g.,'((c l a s s) 
 A document is a list of paragraphs.
 A document encoded with a cipher alphabet is not easy to break without the help of a computer.
 we are asked to implement a brute force version that uses a spell checker to break the cipher.
+
+
+## Brute Force with Spell Checker Gen_Decoder_A
+The algorithm for the brute force code breaker is simple. The input words are encoded for each possible mapping. 
+There are 28! (! means factorial) such mappings. *to simplify, I made it 5! (just 5 letters are mixed)*
+For each mapping, a spell checker determines whether the resulting words are words in the English language. The mapping that generates the most correctly spelled words is assumed to be correct one.
+
+For this method, I needed to implement a spell checker. the spell checker implemented by using the dictionary of words in file *dictionary.cl.* You will need to implemented the spell checker *spell_checker* that takes as input a word, and returns the truth value T or NIL. 
+- spell_checker_0: A brute force version of the spell checker that just checks whether the word occurs in the dictionary or not.
+- spell_checker_1: Implements a faster search strategy using hash mapping. 
