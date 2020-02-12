@@ -27,7 +27,7 @@ we are asked to implement a brute force version that uses a spell checker to bre
 
 ## Brute Force with Spell Checker Gen_Decoder_A
 The algorithm for the brute force code breaker is simple. The input words are encoded for each possible mapping. 
-There are 28! (! means factorial) such mappings. *to simplify, I made it 5! (just 5 letters are mixed)*
+There are 29! (! means factorial) such mappings. *to simplify, I made it 8! (just 8 letters are mixed)*
 For each mapping, a spell checker determines whether the resulting words are words in the English language. The mapping that generates the most correctly spelled words is assumed to be correct one.
 
 For this method, I needed to implement a spell checker. the spell checker implemented by using the dictionary of words in file *dictionary.cl.* You will need to implemented the spell checker *spell_checker* that takes as input a word, and returns the truth value T or NIL. 
