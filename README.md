@@ -1,7 +1,8 @@
 # encoding-and-decoding
 Encode a text from a file. and decode an encoded text with brute force algorithm
 
-## Programming in Common Lisp: In this project, I implemented functions for encoding and decoding a sequence of words using a cipher alphabet.
+## Programming in Common Lisp:
+In this project, I implemented functions for encoding and decoding a sequence of words using a cipher alphabet.
 
 ### A cipher alphabet is a one to one mapping to a plain text alphabet. 
 An example of such mapping is given below:
